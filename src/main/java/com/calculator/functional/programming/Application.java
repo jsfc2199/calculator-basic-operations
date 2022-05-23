@@ -1,13 +1,12 @@
 package com.calculator.functional.programming;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-
 public class Application {
 
 	public static void main(String[] args) {
+		IAddition calculateAddition = (x,y)-> x+y;
+		ISubtraction calculateSubtraction = (x,y)-> x-y;
 
+		System.out.println("The addition is: " + calculateAddition.addition(5,8));
+		System.out.println("The substraccion is: " + calculateSubtraction.subtraction(8,7));
 	}
-
 }
