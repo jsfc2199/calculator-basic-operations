@@ -32,3 +32,5 @@ System.out.println("The substraction is: " + calculateSubtraction.subtraction(8,
 System.out.println("The division is: " + calculateDivision.division(0, 9));
 
 ```
+
+[![imagen.png](https://i.postimg.cc/sDTM9tt1/imagen.png)](https://postimg.cc/xcbj9FjS)
